@@ -50,7 +50,7 @@ const games = {
         question: "¿Como se llama el perro de mi hermano?",
         input: true,
         correctAnswer: ["Max", "max", "Maxito", "maxito"],
-        responseMessage: "ASI ESSSSS‼️‼️, el maravilloso perrito de mi hermano se llama Max, aka Maxito, y bueno, ¿qué te puedo decir yo que ya no sepas de él? jeje. De verdad que tienes que conocerlo algún día y ojalá sea más pronto que tarde :3. Mira la famosa foto de Maxito sacando la lengua, ¡tan bello! 🥺🥺<br><br><img src='Fotos/MaxitoLengua.jpg' style='width: 50%;'>",
+        responseMessage: "ASI ESSSSS‼️‼️, el maravilloso perrito de mi hermano se llama Max, aka Maxito, y bueno, ¿qué te puedo decir yo que ya no sepas de él? jeje. De verdad que tienes que conocerlo algún día y ojalá sea más pronto que tarde :3. Mira la famosa foto de Maxito sacando la lengua, ¡tan bello! 🥺🥺<br><br><img src='Fotos/MaxitoLengua1.jpg' style='width: 50%;'>",
         responseMessageIncorrect: "Imposible que no sepas el nombre de un perro tan lindo y de el que tanto te he hablado 😮😮"
     },
     "3": {
