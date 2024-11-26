@@ -55,20 +55,26 @@ body {
     margin: 5% auto;
     padding: 20px;
     border-radius: 10px;
-    width: 60%;
+    width: 80%; /* Adjust width to fit smaller screens */
     max-width: 600px;
     text-align: center;
     font-size: 18px;
     font-family: Arial, sans-serif;
     color: black;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between; /* Make sure to space the content */
-    align-items: center; /* Center items horizontally */
-    position: relative; /* For positioning of the close button */
-    height: auto; /* Dynamic height depending on content */
-    min-height: 200px; /* Add a min-height to ensure enough space */
-    overflow-y: auto;
+    flex-direction: column; /* Stack content vertically */
+    justify-content: space-between; /* Space out content, button stays at bottom */
+    align-items: center;
+    position: relative;
+    min-height: 200px; /* Ensure enough space for content */
+    overflow-y: auto; /* Allow scrolling if content overflows */
+}
+
+@media (max-width: 768px) {
+    .modal-content {
+        width: 90%; /* Allow more width for mobile */
+        min-height: 200px; /* Ensure enough space on smaller screens */
+    }
 }
 
 body.modal-open {
@@ -90,6 +96,7 @@ body.modal-open {
     font-size: 18px;
     border-radius: 5px;
     margin-top: 20px; /* Add space between content and close button */
+    align-self: flex-end; /* Align button at the bottom of the modal */
 }
 
 .close-btn:hover {
@@ -107,6 +114,7 @@ body.modal-open {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
     padding-top: 60px;
+    overflow-y: auto; /* Ensure background is scrollable */
 }
 
 /* For choice-based games (spacing and proper layout) */
