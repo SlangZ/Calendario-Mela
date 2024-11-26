@@ -68,6 +68,7 @@ body {
     position: relative; /* For positioning of the close button */
     height: auto; /* Dynamic height depending on content */
     min-height: 200px; /* Add a min-height to ensure enough space */
+    overflow-y: auto;
 }
 
 /* Ensure game options have spacing */
