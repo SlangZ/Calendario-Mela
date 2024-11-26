@@ -31,6 +31,12 @@ document.querySelector('.day').addEventListener('click', function() {
     showModal("This is your message!", "What is your favorite color?");
 });
 
+// When the modal opens
+document.body.classList.add('modal-open');
+
+// When the modal closes
+document.body.classList.remove('modal-open');
+
 // minigames logic
 const games = {
     "1": {
