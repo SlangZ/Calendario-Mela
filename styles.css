@@ -16,10 +16,10 @@ body {
     display: grid;
     grid-template-columns: repeat(5, 1fr); /* 5 columns */
     gap: 20px;
-    margin-top: 150px;
+    margin-top: 80px;
     max-width: 800px;
     margin-bottom: 50px;
-    padding: 20px;
+    padding: 40px;
     background-color: #A1C6EA; /* White background for the grid */
     border-radius: 10px; /* Round corners for the grid */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
@@ -28,12 +28,12 @@ body {
 
 @media (max-width: 600px) {
     .calendar {
-        max-width: 90%; /* Limit the width to 90% of the screen */
-        max-height: 90%;
+        max-width: 95%; /* Limit the width to 90% of the screen */
         padding: 20px; /* Add padding for spacing */
         margin-left: 5%; /* Center the calendar horizontally */
         margin-right: 5%; /* Ensure space on both sides */
         margin-bottom: 5%;
+        gap: 10px;
     }
 }
 
@@ -199,4 +199,9 @@ h1 {
     background-color: #F44336;
     color: white;
     font-weight: bold;
+}
+
+.footer{
+    height: 100px;
+    width: 95%;
 }
