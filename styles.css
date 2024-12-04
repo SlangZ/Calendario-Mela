@@ -189,3 +189,18 @@ h1 {
     color: white;
     font-weight: bold;
 }
+
+.modal-content, .extra-day {
+    padding: 20px; /* Add padding inside the container */
+    text-align: center; /* Center align the text */
+    word-wrap: break-word; /* Prevent text from overflowing */
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+/* Ensure proper spacing for smaller screens */
+@media (max-width: 600px) {
+    .modal-content, .extra-day {
+        padding: 15px; /* Adjust padding for small screens */
+        font-size: 16px; /* Slightly reduce font size for readability */
+    }
+}
